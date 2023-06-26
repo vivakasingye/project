@@ -188,26 +188,8 @@ p:last-child {
   margin-bottom: 30px;
 }
 
-#pre-loader {
-  background-color: var(--whiteColor);
-  position: fixed;
-  display: block;
-  width: 100%;
-  height: 100%;
-  z-index: 999999;
-}
 
-#pre-loader .preloader-img {
-  position: absolute;
-  margin: auto;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
-}
+
 
 /*===================================
 Topbar Area CSS
@@ -1676,13 +1658,12 @@ Index 01 Banner Area CSS
   left: 105%;
   bottom: 2px;
 }
-
 .banner-text-area h1 {
-  color: var(--whiteColor);
-  margin-top: 12px;
-  margin-bottom: 30px;
-  font-size: 78px;
-  font-weight: 700;
+	color: var(--whiteColor);
+	margin-top: 12px;
+	margin-bottom: 30px;
+	font-size: 54px !important;
+	font-weight: 700;
 }
 
 .banner-text-area p {
@@ -1755,8 +1736,7 @@ Index 01 Features Area CSS
 Index 01 About Area CSS
 =================================================*/
 .about-text-area {
-  padding-top: 50px;
-  padding-bottom: 50px;
+
 }
 
 .about-img-area {
@@ -1764,12 +1744,13 @@ Index 01 About Area CSS
   background-size: cover;
   background-position: top center;
   background-repeat: no-repeat;
-  background-image: url("../images/about/about1.jpg");
   height: 100%;
 }
 
 .about-img-area img {
-  display: none;
+	box-shadow: 10px 10px 30px #ccc8c8;
+	height: 400px;
+	width: 100%;
 }
 
 .about-img-area::before {
@@ -1834,10 +1815,12 @@ Index 01 Services Area CSS
 .service-card .service-card-img {
   overflow: hidden;
 }
-
 .service-card .service-card-img img {
-  -webkit-transition: .5s ease-in-out;
-  transition: .5s ease-in-out;
+	-webkit-transition: .5s ease-in-out;
+	transition: .5s ease-in-out;
+	height: 200px;
+	width: 100%;
+	object-fit: cover;
 }
 
 .service-card .service-card-text-area {
