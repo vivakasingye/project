@@ -112,5 +112,16 @@
     <script src="assets/js/tilt.js"></script>
     <script src="assets/js/odometer.min.js"></script>
     <script src="assets/js/custom.js"></script>
+    <script>
+window.addEventListener('DOMContentLoaded', function() {
+  // Set the site description
+  var siteDescription = "Example Site Description";
+  var metaDescription = document.querySelector('meta[name="description"]');
+  if (metaDescription) {
+    metaDescription.setAttribute('content', siteDescription);
+  }
+});
+
+    </script>
     </body>
         </html>

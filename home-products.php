@@ -1,4 +1,3 @@
-
 <div class="products">
     <div class="container">
         <div class="row">
@@ -99,7 +98,7 @@
                         ];
 
                         // Number of products per page
-                        $itemsPerPage = 6;
+                        $itemsPerPage = 8;
 
                         // Get current page number from URL
                         $currentPage = isset($_GET['page']) ? max(1, intval($_GET['page'])) : 1;
@@ -115,14 +114,14 @@
                         for ($i = $startIndex; $i <= $endIndex; $i++) {
                             $product = $products[$i];
                             ?>
-                            <div class="col-xl-4 col-lg-6 col-md-6 col-sm-6 col-12">
+                            <div class="col-xl-3 col-lg-6 col-md-6 col-sm-6 col-12">
                                 <div class="product-card">
                                     <div class="product-card-img">
-                                        <a href="desktop-computers-and-servers.php"><img src="<?php echo $product['image']; ?>" alt="image"></a>
+                                        <a href="<?php echo strtolower(str_replace(' ', '-', $product['name'])); ?>.php"><img src="<?php echo $product['image']; ?>" alt="image"></a>
                                     </div>
                                     <div class="product-card-text-area">
                                         <div class="product-info">
-                                            <h4><a href="#"><?php echo $product['name']; ?></a></h4>
+                                            <h4><a href="<?php echo strtolower(str_replace(' ', '-', $product['name'])); ?>.php"><?php echo $product['name']; ?></a></h4>
                                             <p><?php echo $product['price']; ?></p>
                                         </div>
                                         <a class="product-cart-btn" href="cart.php"><i class="flaticon-cart"></i></a>
@@ -134,29 +133,27 @@
                         ?>
                     </div>
                     <div class="paginations mt-30">
-    <ul>
-        <?php if ($currentPage > 1) { ?>
-            <li><a href="products.php?page=<?php echo ($currentPage - 1); ?>"><i class="fas fa-angle-left"></i></a></li>
-        <?php } ?>
+                        <ul>
+                            <?php if ($currentPage > 1) { ?>
+                                <li><a href="products.php?page=<?php echo ($currentPage - 1); ?>"><i class="fas fa-angle-left"></i></a></li>
+                            <?php } ?>
 
-        <?php
-        // Generate pagination links
-        for ($i = 1; $i <= $totalPages; $i++) {
-            ?>
-            <li class="<?php echo ($i == $currentPage) ? 'active' : ''; ?>"><a href="products.php?page=<?php echo $i; ?>"><?php echo $i; ?></a></li>
-        <?php
-        }
-        ?>
+                            <?php
+                            // Generate pagination links
+                            for ($i = 1; $i <= $totalPages; $i++) {
+                                ?>
+                                <li class="<?php echo ($i == $currentPage) ? 'active' : ''; ?>"><a href="products.php?page=<?php echo $i; ?>"><?php echo $i; ?></a></li>
+                            <?php
+                            }
+                            ?>
 
-        <?php if ($currentPage < $totalPages) { ?>
-            <li><a href="products.php?page=<?php echo ($currentPage + 1); ?>"><i class="fas fa-angle-right"></i></a></li>
-        <?php } ?>
-    </ul>
-</div>
-
+                            <?php if ($currentPage < $totalPages) { ?>
+                                <li><a href="products.php?page=<?php echo ($currentPage + 1); ?>"><i class="fas fa-angle-right"></i></a></li>
+                            <?php } ?>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
 </div>
-
