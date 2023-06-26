@@ -545,6 +545,7 @@ a.meanmenu-reveal {
   font-family: var(--fontFamily2);
   margin-left: 14px;
   margin-right: 14px;
+  text-transform: uppercase;
 }
 
 .main-nav nav .navbar-nav .nav-item a i {
@@ -1662,7 +1663,7 @@ Index 01 Banner Area CSS
 	color: var(--whiteColor);
 	margin-top: 12px;
 	margin-bottom: 30px;
-	font-size: 54px !important;
+	font-size: 48px !important;
 	font-weight: 700;
 }
 
@@ -3646,13 +3647,13 @@ Index 03 Blog Area CSS
 Uni Banner Area CSS
 =================================================*/
 .uni-banner {
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-image: url("../images/inner-images/uni-banner-bg-1.jpg");
-  position: relative;
-  padding-top: 100px;
-  padding-bottom: 100px;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-image: url("../images/inner-images/uni-banner-bg-1.jpg");
+	position: relative;
+	padding: 40px 0;
+	text-align: center;
 }
 
 .uni-banner::before {
@@ -4034,8 +4035,11 @@ Sidebar Area CSS
 Details Page Area CSS
 =================================================*/
 .details-page-text-area .details-page-main-img {
-  margin-bottom: 20px;
-  width: 100%;
+	margin-bottom: 20px;
+	width: 100%;
+	height: 400px;
+	object-fit: cover;
+	width: 100%;
 }
 
 .details-page-text-area h3 {
