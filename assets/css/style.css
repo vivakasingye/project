@@ -76,7 +76,9 @@ img {
   max-width: 100%;
   height: auto;
 }
-
+.main-nav img {
+	width: 230px;
+}
 p {
   font-family: var(--fontFamily2);
   color: var(--paragraphColor);
