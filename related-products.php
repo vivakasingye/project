@@ -1,40 +1,14 @@
-<?php
-require 'includes/header.php';
-?>
 
-<div class="uni-banner product-uni-banner">
-    <div class="container-fluid container-large">
-        <div class="uni-banner-text-area">
-            <h1>Our Products</h1>
-            <ul>
-                <li><a href="index.php">Home</a></li>
-                <li>Products</li>
-            </ul>
-        </div>
-    </div>
-</div>
-
-<div class="products ptb-50">
+<div class="products">
     <div class="container">
         <div class="row">
             <div class="col-lg-12">
                 <div class="product-page-topbar">
                     <div class="row align-items-center">
                         <div class="col-lg-6 col-md-6 col-sm-6 col-12">
-                            <div class="ppt-left-side">
-                                <p>Showing 1-9 Of 15 Results</p>
-                            </div>
+                           
                         </div>
-                        <div class="col-lg-6 col-md-6 col-sm-6 col-12">
-                            <div class="ppt-right-area">
-                                <select class="form-select" aria-label="Default select example">
-                                    <option selected disabled>Default Sorting</option>
-                                    <option value="1">New Products</option>
-                                    <option value="2">Price Low to High</option>
-                                    <option value="3">Price High to Low</option>
-                                </select>
-                            </div>
-                        </div>
+                        
                     </div>
                 </div>
                 <div class="section-content">
@@ -125,7 +99,7 @@ require 'includes/header.php';
                         ];
 
                         // Number of products per page
-                        $itemsPerPage = 6;
+                        $itemsPerPage = 4;
 
                         // Get current page number from URL
                         $currentPage = isset($_GET['page']) ? max(1, intval($_GET['page'])) : 1;
@@ -141,7 +115,7 @@ require 'includes/header.php';
                         for ($i = $startIndex; $i <= $endIndex; $i++) {
                             $product = $products[$i];
                             ?>
-                            <div class="col-xl-4 col-lg-6 col-md-6 col-sm-6 col-12">
+                            <div class="col-xl-3 col-lg-6 col-md-6 col-sm-6 col-12">
                                 <div class="product-card">
                                     <div class="product-card-img">
                                         <a href="desktop-computers-and-servers.php"><img src="<?php echo $product['image']; ?>" alt="image"></a>
@@ -186,6 +160,3 @@ require 'includes/header.php';
     </div>
 </div>
 
-<?php
-require 'includes/footer.php';
-?>

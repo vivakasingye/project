@@ -510,7 +510,8 @@ a.meanmenu-reveal {
 
 /* Fix for box sizing on Foundation Framework etc. */
 .main-nav {
-  background-color: transparent;
+	background-color: transparent;
+	box-shadow: 10px 10px 9px #0000001c;
 }
 
 .main-nav nav {
@@ -3674,7 +3675,13 @@ Uni Banner Area CSS
 }
 
 .product-uni-banner {
-  background-image: url("../images/inner-images/uni-banner-bg-3.jpg");
+ background-image: url("../images/inner-images/uni-banner-bg-3.jpg");
+  background: #151515;
+}
+.product-single-uni-banner {
+	/* background-image: url("../images/inner-images/uni-banner-bg-3.jpg"); */
+	background: #fbfbfb;
+  display: none;
 }
 
 .uni-banner-text-area {
@@ -4729,6 +4736,7 @@ Product Details Page Area CSS
   font-family: var(--fontFamily);
 }
 
+/*
 .product-info-image-area {
   background-size: cover;
   background-position: center;
@@ -4736,10 +4744,12 @@ Product Details Page Area CSS
   background-image: url("../images/products/product1.jpg");
   height: 100%;
   border: 1px solid #eeeeee;
-}
+}*/
 
 .product-info-image-area img {
-  display: none;
+  height: 400px;
+  width: 100%;
+  object-fit: contain;
 }
 
 .product-details-info-area {

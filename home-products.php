@@ -118,7 +118,7 @@
                             <div class="col-xl-4 col-lg-6 col-md-6 col-sm-6 col-12">
                                 <div class="product-card">
                                     <div class="product-card-img">
-                                        <a href="#"><img src="<?php echo $product['image']; ?>" alt="image"></a>
+                                        <a href="desktop-computers-and-servers.php"><img src="<?php echo $product['image']; ?>" alt="image"></a>
                                     </div>
                                     <div class="product-card-text-area">
                                         <div class="product-info">
