@@ -5,7 +5,7 @@
     <div class="row">
     <div class="col-lg-3 col-md-6 col-sm-6 col-12">
     <div class="footer-logo-area">
-        <a href="index.html"><img src="assets/images/micronet-logo.png" alt="logo"></a>
+        <a href="index.php"><img src="assets/images/micronet-logo.png" alt="logo"></a>
         <p>Telecorner Uganda limited  was established in 2013 with a vision of building an excellent reputation</p>
         <div class="footer-social-area">
     <ul>
@@ -21,9 +21,9 @@
     <div class="footer-links footer-lp footer-services">
     <h3>Services</h3>
     <ul>
-    <li><a href="services.html">Computer Repairs</a></li>
-    <li><a href="services.html">Networking</a></li>
-    <li><a href="services.html">Cyber security</a></li>
+    <li><a href="#">Computer Repairs</a></li>
+    <li><a href="#">Networking</a></li>
+    <li><a href="#">Cyber security</a></li>
 
     </ul>
     </div>
@@ -32,10 +32,10 @@
     <div class="footer-links footer-lp">
     <h3>Useful Links</h3>
     <ul>
-    <li><a href="terms.html">About Us</a></li>
-    <li><a href="privacy.html">Services</a></li>
-    <li><a href="blog.html">Products</a></li>
-    <li><a href="testimonial.html">Contact Us</a></li>
+    <li><a href="3">About Us</a></li>
+    <li><a href="#">Services</a></li>
+    <li><a href="#">Products</a></li>
+    <li><a href="#">Contact Us</a></li>
 
     </ul>
     </div>

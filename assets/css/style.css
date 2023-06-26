@@ -80,11 +80,11 @@ img {
 	width: 230px;
 }
 p {
-  font-family: var(--fontFamily2);
-  color: var(--paragraphColor);
-  font-size: var(--fontSize);
-  margin-bottom: 15px;
-  line-height: 1.8;
+	font-family: open sans;
+	color: var(--paragraphColor);
+	font-size: 17px;
+	margin-bottom: 15px;
+	line-height: 1.8;
 }
 
 p:last-child {
@@ -1636,10 +1636,12 @@ Default Section Title Area CSS
 Index 01 Banner Area CSS
 =================================================*/
 .main-banner {
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-image: url("../images/banner/banner-1-bg.jpg");
+	background-size: cover;
+	background-position: top;
+	background-repeat: no-repeat;
+	background-image: url("../images/banner/banner-1-bg.jpg");
+	width: 100%;
+	height: 500px;
 }
 
 .banner-text-area h6 {
@@ -4547,12 +4549,12 @@ Product Page Area CSS
 .product-page-topbar .ppt-right-area .form-select::after {
   display: none;
 }
-
 .product-card {
 	margin-top: 30px;
 	box-shadow: 10px 10px 30px #00000063;
 	padding: 10px;
 	text-align: center;
+	background: #fff;
 }
 .product-card  img {
 	max-width: 100%;

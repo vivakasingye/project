@@ -3,20 +3,15 @@
 <div class="container-fluid container">
 <div class="row align-items-center">
 <div class="col-lg-6">
+    <!--
 <div class="banner-text-area banner-text-area-1 pr-50">
 <h6>Telecorner Uganda limited</h6>
 <h1>Desktop Computers and Servers</h1>
 <p>We set a pace in providing world class ICT products from all top manufacturers around the world at very affordable prices. 	 </p>
 <a class="default-button" href="about.php"><span>Learn More <i class="flaticon-right-arrow"></i></span></a>
 </div>
-</div>
+</div>-->
 <div class="col-lg-6">
-<div class="banner-img-area">
-<img class="secondary-img" src="assets/images/banner/banner-1-img.jpg" alt="image">
-<div class="banner-img-slider-area owl-carousel">
-<img src="assets/images/banner/slide.png" alt="image">
-<img src="assets/images/banner/slide.png" alt="image">
-<img src="assets/images/banner/slide.png" alt="image">
 
 
 </div>
@@ -27,34 +22,17 @@
 </div>
 
 
-
-<div class="about  pt-100">
+<div class="services pt-100">
 <div class="container">
-<div class="row">
-<div class="col-lg-6">
-<div class="about-text-area pr-20">
-<div class="default-section-title">
-<span>About Us</span>
-<h3>Telecorner Uganda limited</h3>
-<p>Telecorner Uganda limited  was established in 2013 with a vision of building an excellent reputation as to playing an active role in delivering IT services to our clients in Uganda, Africa.
-    We set a pace in providing world class ICT products from all top manufacturers around the world at very affordable prices. 	 
-    </p>
-    <p>Micronet Computers Limited is recognized for its value driven approach to research on Information 
-        Technology, supplies of computers and accessories and preventive maintenance service.
-        </p>
+<div class="default-section-title default-section-title-middle">
+<span>Our Products</span>
+<h3>What We Offer to Our Customers</h3>
 </div>
-<a class="default-button default-button-2 mt-30" href="about.php"><span>About Our Company <i class="flaticon-right-arrow"></i></span></a>
-</div>
- </div>
-<div class="col-lg-6">
-<div class="about-img-area">
-<img src="assets/images/about/about.png" alt="image">
-<div class="about-img-text">
-<i class="flaticon-badge"></i>
-<h4>9+ Years</h4>
-<p>of Experiences</p>
-</div>
-</div>
+<div class="section-content">
+<?php
+require 'home-products.php'?>
+<div class="section-footer-button">
+<a class="default-button default-button-2 mt-30" href="products.php"><span>Browse More Products<i class="flaticon-right-arrow"></i></span></a>
 </div>
 </div>
 </div>
