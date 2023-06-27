@@ -2480,15 +2480,18 @@ Index 01 Newsletter Area CSS
 Index 02 Banner Area CSS
 =================================================*/
 .home-banner-single-slide {
-  position: relative;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-image: url("../images/banner/banner-bg-2-1.jpg");
-  padding-top: 180px;
-  padding-bottom: 180px;
+	position: relative;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-image: url("../images/banner/banner-1-bg.png");
+	padding-top: 180px;
+	padding-bottom: 180px;
+	height: 500px;
+	transition: 1s;
+	object-fit: cover;
 }
-
+/*
 .home-banner-single-slide::before {
   content: '';
   width: 100%;
@@ -2499,7 +2502,7 @@ Index 02 Banner Area CSS
   left: 0;
   top: 0;
   z-index: 0;
-}
+}*/
 
 .home-banner-single-slide .banner-text-area {
   position: relative;
@@ -2507,11 +2510,11 @@ Index 02 Banner Area CSS
 }
 
 .hbs-2 {
-  background-image: url("../images/banner/banner-bg-2-2.jpg");
+  background-image: url("../images/banner/banner-1-bg0.png");
 }
 
 .hbs-3 {
-  background-image: url("../images/banner/banner-bg-2-3.jpg");
+  background-image: url("../images/banner/banner-1-bg.png");
 }
 
 .home-banner {

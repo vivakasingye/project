@@ -10,6 +10,6 @@
 <div class="sidebar-card sidebar-download mt-30">
 <h3>Company Profile</h3>
 <p>Telecorner Uganda limited was established in 2013 with a vision of building an excellent reputation</p>
-<a class="default-button" href="assets/hello.doc"> <span><i class="flaticon-pdf"></i> Download PDF Now!</span> </a>
+<a class="default-button" href="#"> <span><i class="flaticon-pdf"></i> Download PDF Now!</span> </a>
 </div>
 </div>

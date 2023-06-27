@@ -1,25 +1,51 @@
+<div class="home-banner">
 
-<div class="main-banner">
-<div class="container-fluid container">
-<div class="row align-items-center">
+<div class="home-banner-slider-area owl-carousel">
+<div class="home-banner-single-slide">
+<div class="container-fluid container-large">
+<div class="row">
 <div class="col-lg-6">
-    <!--
-<div class="banner-text-area banner-text-area-1 pr-50">
-<h6>Telecorner Uganda limited</h6>
-<h1>Desktop Computers and Servers</h1>
-<p>We set a pace in providing world class ICT products from all top manufacturers around the world at very affordable prices. 	 </p>
-<a class="default-button" href="about.php"><span>Learn More <i class="flaticon-right-arrow"></i></span></a>
-</div>
+<!--<div class="banner-text-area banner-text-area-1">
+<h6>PC & Mobile Repairing Services</h6>
+<h1>A Smarter Technology Repair Service.</h1>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nec ut viverra eros euismod tibulum diam suspendisse adipiscing diam quis. Et id volutpat sit odio venenatis a dui.</p>
+<a class="default-button" href="about.html"><span>Learn More <i class="flaticon-right-arrow"></i></span></a>
 </div>-->
+</div>
+</div>
+</div>
+</div>
+<div class="home-banner-single-slide hbs-2">
+<div class="container-fluid container-large">
+<div class="row">
 <div class="col-lg-6">
+<!--<div class="banner-text-area banner-text-area-1">
+<h6>PC & Mobile Repairing Services</h6>
+<h1>Best IT Services All Over The City</h1>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nec ut viverra eros euismod tibulum diam suspendisse adipiscing diam quis. Et id volutpat sit odio venenatis a dui.</p>
+<a class="default-button" href="about.html"><span>Learn More <i class="flaticon-right-arrow"></i></span></a>
+</div>-->
+</div>
+</div>
+</div>
+</div>
+<div class="home-banner-single-slide hbs-3">
+<div class="container-fluid container-large">
+<div class="row">
+<div class="col-lg-6">
+<!--<div class="banner-text-area banner-text-area-1">
+<h6>PC & Mobile Repairing Services</h6>
+<h1>Repair Your Machines From Experts.</h1>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nec ut viverra eros euismod tibulum diam suspendisse adipiscing diam quis. Et id volutpat sit odio venenatis a dui.</p>
+<a class="default-button" href="about.html"><span>Learn More <i class="flaticon-right-arrow"></i></span></a>
+</div>-->
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
 
-
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
 
 
 <div class="services pt-100">

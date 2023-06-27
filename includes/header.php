@@ -24,7 +24,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 <title>Telecorner Uganda limited - building an excellent reputation as to playing an active role in delivering IT services to our clients in Uganda, Africa.</title>
-<link rel="icon" type="image/png" href="assets/images/fav-icon.png">
+<!--<link rel="icon" type="image/png" href="assets/images/fav-icon.png">-->
 </head>
 <body>
 
