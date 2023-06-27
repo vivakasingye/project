@@ -28,9 +28,18 @@ require 'includes/header.php';
 <div class="product-details-info-area pl-20">
 <h3>Desktop Computers and Servers</h3>
 <p>The PowerPro X3500 Desktop Computer is a high-performance computing solution designed to meet the demanding needs of modern businesses. Powered by an Intel Core i7 processor, this desktop computer delivers exceptional processing power and multitasking capabilities, ensuring smooth and efficient operations.</p>
+<ul class="production-description-list">
+<h4>Product details</h4>
+
+<li><i class="flaticon-right-arrow"></i> Lorem, ipsum dolor. </li>
+<li><i class="flaticon-right-arrow"></i> Cell Phone Connection</li>
+<li><i class="flaticon-right-arrow"></i> 99% Accurate Response</li>
+<li><i class="flaticon-right-arrow"></i> Best Data Features</li>
+</ul>
 <a class="default-button" href="contact.php"><span>Contact Us</span></a>
 
 </div>
+
 </div>
 </div>
 </div>
