@@ -121,3 +121,32 @@ require 'home-products.php'?>
 </div>
 </div>
 
+<div class="about ptb-100">
+<div class="container">
+<div class="row">
+<div class="col-lg-6">
+<div class="about-text-area pr-20">
+<div class="default-section-title">
+<span>About Us</span>
+<h3>Telecorner Uganda limited</h3>
+<p>We deliver end-to-end solutions; hardware provisions namely IT equipment and peripheral devices</p>
+<p>Above all we value our client partnerships by guaranteeing complete customer satisfaction and we always provide our partners with the highest levels of service and professionalism. </p>
+</div>
+<a class="default-button default-button-2 mt-30" href="about.php"><span>About Our Company <i class="flaticon-right-arrow"></i></span></a>
+</div>
+ </div>
+<div class="col-lg-6">
+<div class="about-img-area">
+<img src="assets/images/about/about.png" alt="image">
+<div class="about-img-text">
+<i class="flaticon-badge"></i>
+<h4>9+ Years</h4>
+<p>of Experiences</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+

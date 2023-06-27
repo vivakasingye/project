@@ -77,7 +77,7 @@ img {
   height: auto;
 }
 .main-nav img {
-	width: 230px;
+	width: 190px;
 }
 p {
   font-family: 'Open Sans', sans-serif;
@@ -529,12 +529,12 @@ a.meanmenu-reveal {
 	background-color: transparent;
 	box-shadow: 10px 10px 9px #0000001c;
 }
-
+/*
 .main-nav nav {
   padding-top: 20px;
   padding-bottom: 20px;
 }
-
+*/
 .main-nav nav ul {
   padding: 0;
   margin: 0;
@@ -1469,18 +1469,18 @@ Go Top CSS
 Default Button Area CSS
 =================================================*/
 .default-button {
-  overflow: hidden;
-  padding: 13px 35px;
-  position: relative;
-  display: inline-block;
-  color: var(--whiteColor);
-  -webkit-transition: .5s ease-in-out;
-  transition: .5s ease-in-out;
-  border: 1px solid #FC540450;
-  background-color: #ec2f24;
-  font-size: 15px;
-  font-weight: 400;
-  font-family: var(--fontFamily2);
+	overflow: hidden;
+	padding: 8px 19px;
+	position: relative;
+	display: block;
+	color: var(--whiteColor);
+	-webkit-transition: .5s ease-in-out;
+	transition: .5s ease-in-out;
+	border: 1px solid #FC540450;
+	background-color: #ec2f24;
+	font-size: 15px;
+	font-weight: 400;
+	font-family: var(--fontFamily2);
 }
 
 .default-button::before {
@@ -2484,10 +2484,10 @@ Index 02 Banner Area CSS
 =================================================*/
 .home-banner-single-slide {
 	position: relative;
-	background-size: cover;
+	background-size: cover !important;
 	background-position: center;
 	background-repeat: no-repeat;
-  background: #f9f9f9 url("../images/banner/banner-1-bg.png") center no-repeat;
+	background: #f9f9f9 url("../images/banner/banner-1-bg.png") center no-repeat;
 	padding-top: 180px;
 	padding-bottom: 180px;
 	height: 500px;
@@ -2513,11 +2513,11 @@ Index 02 Banner Area CSS
 }
 
 .hbs-2 {
-  background-image: url("../images/banner/banner-1-bg0.png");
+  background-image: url("../images/about/about.png");
 }
 
 .hbs-3 {
-  background-image: url("../images/banner/banner-1-bg.png");
+  background-image: url("../images/banner/banner-1-bg0.png");
 }
 
 .home-banner {
