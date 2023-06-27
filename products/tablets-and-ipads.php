@@ -1,5 +1,6 @@
-<?php require '../includes/header.php'; ?>
-
+<?php
+require 'includes/header.php';
+?>
 <div class="uni-banner product-single-uni-banner">
 <div class="container-fluid container-large">
 <div class="uni-banner-text-area">
@@ -44,7 +45,7 @@
 <span>Related Products</span>
 <h3>Related Products</h3>
 <?php
-require '../includes/related-products.php';
+require 'related-products.php';
 ?>
 </div>
 
@@ -53,6 +54,6 @@ require '../includes/related-products.php';
 
 
 <?php
-require '../includes/footer.php';
+require 'includes/footer.php';
 ?>
 
