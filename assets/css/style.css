@@ -2484,7 +2484,7 @@ Index 02 Banner Area CSS
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
-  background: #000 url("../images/banner/banner-1-bg.png") center/cover no-repeat;
+  background: #f9f9f9 url("../images/banner/banner-1-bg.png") center no-repeat;
 	padding-top: 180px;
 	padding-bottom: 180px;
 	height: 500px;
