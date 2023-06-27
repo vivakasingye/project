@@ -20,17 +20,17 @@ require 'includes/header.php';
 <div class="row">
 <div class="col-lg-8">
 <div class="details-page-text-area">
-<img class="details-page-main-img" src="assets/images/services/Repair-Services.jpg" alt="image">
+<img class="details-page-main-img" src="assets/images/services/Repair-Services.jpg" alt="Telecorner Uganda limited">
 <h3>Computer Repairs and Maintenance </h3>
 <p>We are familiar with the headaches that come along with technology, especially when an organization has more pressing issues to focus on. We are committed to taking care of your computer network systems in our service repair and maintenance package which will help you deal with potential hazards on your data at an early stage.</p> 
 <p> It will also help you to increase the longevity of your hardware and reduce the downtime in your organization. Our service and maintenance package includes periodic diagnostic service and maintenance operations. </p>
 <!--<div class="details-page-text-img-area">
 <div class="row">
 <div class="col-lg-6 col-md-6 col-sm-6 col-12">
-<img src="assets/images/services/service2.jpg" alt="image">
+<img src="assets/images/services/service2.jpg" alt="Telecorner Uganda limited">
 </div>
 <div class="col-lg-6 col-md-6 col-sm-6 col-12">
-<img src="assets/images/services/service3.jpg" alt="image">
+<img src="assets/images/services/service3.jpg" alt="Telecorner Uganda limited">
 </div>
 </div>
 </div>

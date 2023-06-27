@@ -20,7 +20,7 @@ require 'includes/header.php';
 <div class="row">
 <div class="col-lg-8">
 <div class="details-page-text-area">
-<img class="details-page-main-img" src="assets/images/services/cyber.jpg" alt="image">
+<img class="details-page-main-img" src="assets/images/services/cyber.jpg" alt="Telecorner Uganda limited">
 <h3>Cyber Security</h3>
 <p>Network security is the practice of securing a computer network from intruders, whether targeted attackers or opportunistic malware. 
  
@@ -37,10 +37,10 @@ require 'includes/header.php';
 <!--<div class="details-page-text-img-area">
 <div class="row">
 <div class="col-lg-6 col-md-6 col-sm-6 col-12">
-<img src="assets/images/services/service2.jpg" alt="image">
+<img src="assets/images/services/service2.jpg" alt="Telecorner Uganda limited">
 </div>
 <div class="col-lg-6 col-md-6 col-sm-6 col-12">
-<img src="assets/images/services/service3.jpg" alt="image">
+<img src="assets/images/services/service3.jpg" alt="Telecorner Uganda limited">
 </div>
 </div>
 </div>

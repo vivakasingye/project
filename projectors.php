@@ -1,12 +1,13 @@
-<?php require 'includes/header.php';
+<?php
+require 'includes/header.php';
 ?>
 <div class="uni-banner product-single-uni-banner">
 <div class="container-fluid container-large">
 <div class="uni-banner-text-area">
-<h1>Cartridges</h1>
+<h1>Projectors</h1>
 <ul>
 <li><a href="index.html">Home</a></li>
-<li>Cartridges</li>
+<li>Projectors</li>
 </ul>
 </div>
 </div>
@@ -17,23 +18,23 @@
 <div class="row">
 <div class="col-lg-6">
 <div class="product-info-image-area">
-<img src="assets/images/products/Telecorner Uganda limited - Cartridges.png" alt="Telecorner Uganda limited">
+<img src="assets/images/products/Telecorner Uganda limited - Printer.png" alt="Telecorner Uganda limited">
 </div>
 </div>
 <div class="col-lg-6">
 <div class="product-details-info-area pl-20">
-<h3>Cartridges</h3>
-<p>Our cartridges offer high-quality, reliable printing for home and office use. With their advanced features and user-friendly interfaces, they make it easy to produce professional-looking documents and photos. Whether you need a cartridge for everyday use or for special projects, we have a range of models to choose from.</p>
+<h3>Projectors</h3>
+<p>Our projectors offer high-quality, reliable display for presentations, movies, and more. With their advanced features and user-friendly interfaces, they make it easy to share your content with a larger audience. Whether you need a projector for personal or professional use, we have a range of models to choose from.</p>
 <ul class="production-description-list">
 <h4>Key Features</h4>
 <div class="row-d-flex key-features">
     <div class="col-md-6">
-    <li><i class="flaticon-right-arrow"></i> High-quality, reliable printing</li>
-    <li><i class="flaticon-right-arrow"></i> Advanced features for professional-looking documents and photos</li>
+    <li><i class="flaticon-right-arrow"></i> High-quality, reliable display</li>
+    <li><i class="flaticon-right-arrow"></i> Advanced features for sharing your content with a larger audience</li>
     <li><i class="flaticon-right-arrow"></i> User-friendly interfaces for easy operation</li>
     </div>
     <div class="col-md-6">
-    <li><i class="flaticon-right-arrow"></i> Available in a range of models for home and office use</li>
+    <li><i class="flaticon-right-arrow"></i> Available in a range of models for personal and professional use</li>
     <li><i class="flaticon-right-arrow"></i> Energy-efficient and environmentally friendly</li>
     <li><i class="flaticon-right-arrow"></i> Compact and space-saving designs</li>
     </div>
@@ -60,4 +61,3 @@ require 'related-products.php';
 <?php
 require 'includes/footer.php';
 ?>
-     

@@ -61,38 +61,38 @@
                                 'price' => '3.00 / no.3oz'
                             ],
                             [
-                                'image' => 'assets/images/products/Telecorner Uganda limited - Headphones.png',
-                                'name' => 'Headphones',
+                                'image' => 'assets/images/products/Telecorner Uganda limited - Attendance Devices',
+                                'name' => 'Attendance Devices',
                                 'price' => '50.00$ / no.1oz'
                             ],
                             [
-                                'image' => 'assets/images/products/Telecorner Uganda limited - Mouse.png',
-                                'name' => 'Computer Mice',
+                                'image' => 'assets/images/products/Telecorner Uganda limited - Router',
+                                'name' => 'Networking Devices',
                                 'price' => '8.00$ / no.4oz'
                             ],
                             [
-                                'image' => 'assets/images/products/Telecorner Uganda limited - Keyboard.png',
-                                'name' => 'Keyboards',
+                                'image' => 'assets/images/products/Telecorner Uganda limited - CCTV',
+                                'name' => 'CCTV Cameras',
                                 'price' => '15.00$ / no.3oz'
                             ],
                             [
-                                'image' => 'assets/images/products/Telecorner Uganda limited - Speakers.png',
-                                'name' => 'Speakers',
+                                'image' => 'assets/images/products/Telecorner Uganda limited - Antivirus',
+                                'name' => 'Software',
                                 'price' => '35.00$ / no.2oz'
                             ],
                             [
-                                'image' => 'assets/images/products/Telecorner Uganda limited - Monitor.png',
-                                'name' => 'Monitors',
+                                'image' => 'assets/images/products/Telecorner Uganda limited -Harddrive',
+                                'name' => 'External Hard Drives',
                                 'price' => '120.00$ / no.6oz'
                             ],
                             [
-                                'image' => 'assets/images/products/Telecorner Uganda limited - Projector.png',
+                                'image' => 'assets/images/products/Telecorner Uganda limited Projector',
                                 'name' => 'Projectors',
                                 'price' => '200.00$ / no.7oz'
                             ],
                             [
-                                'image' => 'assets/images/products/Telecorner Uganda limited - UPS.png',
-                                'name' => 'Uninterruptible Power Supplies (UPS)',
+                                'image' => 'assets/images/products/Telecorner Uganda limited - Flash disk',
+                                'name' => 'Flash Disks',
                                 'price' => '100.00$ / no.9oz'
                             ],
                         ];
@@ -117,7 +117,7 @@
                             <div class="col-xl-3 col-lg-6 col-md-6 col-sm-6 col-12">
                                 <div class="product-card">
                                     <div class="product-card-img">
-                                        <a href="<?php echo strtolower(str_replace(' ', '-', $product['name'])); ?>.php"><img src="<?php echo $product['image']; ?>" alt="image"></a>
+                                        <a href="<?php echo strtolower(str_replace(' ', '-', $product['name'])); ?>.php"><img src="<?php echo $product['image']; ?>" alt="Telecorner Uganda limited"></a>
                                     </div>
                                     <div class="product-card-text-area">
                                         <div class="product-info">

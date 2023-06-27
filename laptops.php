@@ -21,7 +21,7 @@ require 'includes/header.php';
 <div class="row">
 <div class="col-lg-6">
 <div class="product-info-image-area">
-<img src="assets/images/products/Telecorner Uganda limited -Ipad.png" alt="image">
+<img src="assets/images/products/Telecorner Uganda limited  - Laptop.png" alt="Telecorner Uganda limited">
 </div>
 </div>
  <div class="col-lg-6">

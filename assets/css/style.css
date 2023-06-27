@@ -1959,6 +1959,9 @@ Index 01 Fun fact & Intro Video Area CSS
   background-repeat: no-repeat;
   background-image: url("../images/ff-bg.jpg");
 }
+.key-features{
+  display: flex;
+}
 
 .ff-intro::before {
   content: '';
@@ -4770,10 +4773,15 @@ Product Details Page Area CSS
 	box-shadow: 10px 10px 20px #00000017;
 }
 
+/*
 .product-details-info-area {
   padding-top: 50px;
   padding-bottom: 50px;
 }
+*/
+.ptb-50{
+    padding: 60px 0;
+  }
 
 .product-details-info-area h3 {
   margin-bottom: 8px;
@@ -4881,19 +4889,20 @@ Product Details Page Area CSS
   max-width: 720px;
 }
 
-.product-description-area .pd-description .production-description-list {
+.production-description-list {
   margin: 0;
   padding: 0;
   list-style: none;
 }
 
-.product-description-area .pd-description .production-description-list li {
-  margin-top: 10px;
-  font-size: var(--fontSize);
-  font-family: var(--fontFamily2);
+.production-description-list li {
+	margin-top: 10px;
+	font-size: 13px;
+	font-family: var(--fontFamily2);
+	padding: 0px 20px;
 }
 
-.product-description-area .pd-description .production-description-list li i {
+.production-description-list li i {
   color: #ec2f24;
   margin-right: 5px;
   position: relative;

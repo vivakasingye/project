@@ -117,7 +117,7 @@
                             <div class="col-xl-3 col-lg-6 col-md-6 col-sm-6 col-12">
                                 <div class="product-card">
                                     <div class="product-card-img">
-                                        <a href="<?php echo strtolower(str_replace(' ', '-', $product['name'])); ?>.php"><img src="<?php echo $product['image']; ?>" alt="image"></a>
+                                        <a href="<?php echo strtolower(str_replace(' ', '-', $product['name'])); ?>.php"><img src="<?php echo $product['image']; ?>" alt="Telecorner Uganda limited"></a>
                                     </div>
                                     <div class="product-card-text-area">
                                         <div class="product-info">

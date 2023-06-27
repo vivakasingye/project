@@ -20,16 +20,16 @@ require 'includes/header.php';
 <div class="row">
 <div class="col-lg-8">
 <div class="details-page-text-area">
-<img class="details-page-main-img" src="assets/images/services/networking.jpg" alt="image">
+<img class="details-page-main-img" src="assets/images/services/networking.jpg" alt="Telecorner Uganda limited">
 <h3>Networking</h3>
 <p>Whether connecting a few computers in one room office or connecting several offices around the country, we have the experience and expertise to give you just what you need. We can help your organization to regulate departments or even branches virtually, go wireless and or share resources. Our services include wireless networks, local area networks (office networks), wide area networks, virtual private networks and virtual local area networks. </p>
 <!--<div class="details-page-text-img-area">
 <div class="row">
 <div class="col-lg-6 col-md-6 col-sm-6 col-12">
-<img src="assets/images/services/service2.jpg" alt="image">
+<img src="assets/images/services/service2.jpg" alt="Telecorner Uganda limited">
 </div>
 <div class="col-lg-6 col-md-6 col-sm-6 col-12">
-<img src="assets/images/services/service3.jpg" alt="image">
+<img src="assets/images/services/service3.jpg" alt="Telecorner Uganda limited">
 </div>
 </div>
 </div>

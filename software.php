@@ -4,10 +4,10 @@ require 'includes/header.php';
 <div class="uni-banner product-single-uni-banner">
 <div class="container-fluid container-large">
 <div class="uni-banner-text-area">
-<h1>Printers</h1>
+<h1>Software</h1>
 <ul>
 <li><a href="index.html">Home</a></li>
-<li>Printers</li>
+<li>Software</li>
 </ul>
 </div>
 </div>
@@ -18,25 +18,25 @@ require 'includes/header.php';
 <div class="row">
 <div class="col-lg-6">
 <div class="product-info-image-area">
-<img src="assets/images/products/Telecorner Uganda limited - Printer.png" alt="Telecorner Uganda limited">
+<img src="assets/images/products/Telecorner Uganda limited - Antivirus.png" alt="Telecorner Uganda limited">
 </div>
 </div>
 <div class="col-lg-6">
 <div class="product-details-info-area pl-20">
-<h3>Printers</h3>
-<p>Our printers offer high-quality, reliable printing for home and office use. With their advanced features and user-friendly interfaces, they make it easy to produce professional-looking documents and photos. Whether you need a printer for everyday use or for special projects, we have a range of models to choose from.</p>
+<h3>Software</h3>
+<p>Our software offers high-quality, reliable solutions for your business needs. With their advanced features and user-friendly interfaces, they make it easy to manage your operations and streamline your processes. Whether you need software for accounting, project management, or any other business function, we have a range of solutions to choose from.</p>
 <ul class="production-description-list">
 <h4>Key Features</h4>
 <div class="row-d-flex key-features">
     <div class="col-md-6">
-    <li><i class="flaticon-right-arrow"></i> High-quality, reliable printing</li>
-    <li><i class="flaticon-right-arrow"></i> Advanced features for professional-looking documents and photos</li>
+    <li><i class="flaticon-right-arrow"></i> High-quality, reliable solutions for your business needs</li>
+    <li><i class="flaticon-right-arrow"></i> Advanced features for managing your operations and streamlining your processes</li>
     <li><i class="flaticon-right-arrow"></i> User-friendly interfaces for easy operation</li>
     </div>
     <div class="col-md-6">
-    <li><i class="flaticon-right-arrow"></i> Available in a range of models for home and office use</li>
-    <li><i class="flaticon-right-arrow"></i> Energy-efficient and environmentally friendly</li>
-    <li><i class="flaticon-right-arrow"></i> Compact and space-saving designs</li>
+    <li><i class="flaticon-right-arrow"></i> Available in a range of solutions for accounting, project management, and other business functions</li>
+    <li><i class="flaticon-right-arrow"></i> Customizable to meet your specific business needs</li>
+    <li><i class="flaticon-right-arrow"></i> Compatible with a variety of operating systems and devices</li>
     </div>
 </div>
 </ul>

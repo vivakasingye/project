@@ -1,5 +1,6 @@
-<?php require '../includes/header.php'; ?>
-
+ <?php
+require 'includes/header.php';
+?>
 <div class="uni-banner product-single-uni-banner">
 <div class="container-fluid container-large">
 <div class="uni-banner-text-area">
@@ -11,48 +12,53 @@
 </div>
 </div>
 </div>
-
-
-
-<div class="product-details ptb-50">
+ <div class="product-details ptb-50">
 <div class="container">
 <div class="product-details-top-area">
 <div class="row">
 <div class="col-lg-6">
 <div class="product-info-image-area">
-<img src="assets/images/products/Telecorner Uganda limited -Ipad.png" alt="image">
+<img src="assets/images/products/Telecorner Uganda limited -Ipad.png" alt="Telecorner Uganda limited">
 </div>
 </div>
  <div class="col-lg-6">
 <div class="product-details-info-area pl-20">
 <h3>Tablets and iPads</h3>
-<p>The [Tablet/iPad Model] is a versatile and portable device that combines the power of a computer with the convenience of a tablet. With its sleek design and cutting-edge features, it offers an exceptional user experience for work, entertainment, and creativity.</p>
+<p>Our Tablets and iPads offer exceptional user experiences for work, entertainment, and creativity. With their sleek and modern designs, cutting-edge features, and high-quality displays, they are versatile and portable devices that combine the power of a computer with the convenience of a tablet. Whether you need a tablet for work or play, our selection has something for everyone.</p>
+<ul class="production-description-list">
+<h4>Key Features</h4>
+<div class="row-d-flex key-features">
+    <div class="col-md-6">
+    <li><i class="flaticon-right-arrow"></i> Versatile and portable</li>
+<li><i class="flaticon-right-arrow"></i> Sleek and modern designs</li>
+<li><i class="flaticon-right-arrow"></i> Cutting-edge features for work, entertainment, and creativity</li>
+    </div>
+    <div class="col-md-6">
+    <li><i class="flaticon-right-arrow"></i> High-quality display for clear visuals</li>
+<li><i class="flaticon-right-arrow"></i> Long battery life for extended use</li>
+<li><i class="flaticon-right-arrow"></i> Lightweight and easy to carry</li>
+        </div>
+</div>
+</ul>
 <a class="default-button" href="contact.php"><span>Contact Us</span></a>
-
+ </div>
+ </div>
 </div>
 </div>
 </div>
 </div>
 </div>
-</div>
-</div>
-
-
-<div class="products pb-100 bg-f9f9f9">
+ <div class="products pb-100 bg-f9f9f9">
 <div class="container">
 <div class="default-section-title  pt-5">
 <span>Related Products</span>
 <h3>Related Products</h3>
 <?php
-require '../includes/related-products.php';
+require 'related-products.php';
 ?>
 </div>
-
+ </div>
 </div>
-</div>
-
-
-<?php
-require '../includes/footer.php';
+ <?php
+require 'includes/footer.php';
 ?>
-

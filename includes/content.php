@@ -77,7 +77,7 @@ require 'home-products.php'?>
 <div class="col-lg-4 col-md-6 col-sm-6 col-12">
 <div class="service-card">
 <div class="service-card-img">
-<a href="./computer-repairs-and-maintenance.php"><img src="assets/images/services/Repair-Services.jpg" alt="image"></a>
+<a href="./computer-repairs-and-maintenance.php"><img src="assets/images/services/Repair-Services.jpg" alt="Telecorner Uganda limited"></a>
 </div>
 <div class="service-card-text-area">
 <i class="flaticon-repairing-service main-icon"></i>
@@ -90,7 +90,7 @@ require 'home-products.php'?>
 <div class="col-lg-4 col-md-6 col-sm-6 col-12">
 <div class="service-card">
 <div class="service-card-img">
-<a href="./networking.php"><img src="assets/images/services/networking.jpg" alt="image"></a>
+<a href="./networking.php"><img src="assets/images/services/networking.jpg" alt="Telecorner Uganda limited"></a>
 </div>
 <div class="service-card-text-area">
 <i class="flaticon-mechanics main-icon"></i>
@@ -103,7 +103,7 @@ require 'home-products.php'?>
 <div class="col-lg-4 col-md-6 col-sm-6 col-12">
 <div class="service-card">
 <div class="service-card-img">
-<a href="./cyber-security.php"><img src="assets/images/services/cyber.jpg" alt="image"></a>
+<a href="./cyber-security.php"><img src="assets/images/services/cyber.jpg" alt="Telecorner Uganda limited"></a>
 </div>
 <div class="service-card-text-area">
 <i class="flaticon-big-gear main-icon"></i>
