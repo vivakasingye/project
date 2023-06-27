@@ -1545,8 +1545,9 @@ Default Button Area CSS
 }
 
 .default-button-2 {
-  background-color: var(--whiteColor);
-  color: #ec2f24;
+	background-color: var(--whiteColor);
+	color: #ec2f24;
+	width: 50%;
 }
 
 .default-button-3 {
