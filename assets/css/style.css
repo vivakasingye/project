@@ -80,28 +80,44 @@ img {
 	width: 230px;
 }
 p {
-	font-family: open sans;
+  font-family: 'Open Sans', sans-serif;
 	color: var(--paragraphColor);
-	font-size: 17px;
 	margin-bottom: 15px;
 	line-height: 1.8;
+}
+.pt-5 h3 {
+	display: none;
+}
+.pt-5{
+  padding: 0;
 }
 
 p:last-child {
   margin-bottom: 0;
 }
+.pt-5 .default-section-title span {
+	color: #595959!important;
+	position: relative;
+	margin-bottom: 0;
+	display: inline-block;
+	letter-spacing: 1.5px;
+	font-weight: 600;
+	font-size: 26px!important;
+	font-family: var(--fontFamily2);
+	padding-top: 40px!important;
+}
 
 .ptb-100 {
-  padding-top: 100px;
+  padding-top: 60px;
   padding-bottom: 100px;
 }
 
 .pt-100 {
-  padding-top: 100px;
+  padding-top: 60px;
 }
 
 .pb-100 {
-  padding-bottom: 100px;
+  padding-bottom: 60px;
 }
 
 .ptb-70 {
@@ -110,7 +126,7 @@ p:last-child {
 }
 
 .pt-70 {
-  padding-top: 70px;
+  padding-top: 60px;
 }
 
 .pb-70 {
@@ -3679,9 +3695,7 @@ Uni Banner Area CSS
   background: #151515;
 }
 .product-single-uni-banner {
-	/* background-image: url("../images/inner-images/uni-banner-bg-3.jpg"); */
-	background: #fbfbfb;
-  display: none;
+	background-image: url("../images/inner-images/uni-banner-bg-3.jpg");
 }
 
 .uni-banner-text-area {
@@ -4558,7 +4572,7 @@ Product Page Area CSS
 }
 .product-card {
 	margin-top: 30px;
-	box-shadow: 10px 10px 30px #00000063;
+	box-shadow: 10px 10px 30px #00000029;
 	padding: 10px;
 	text-align: center;
 	background: #fff;

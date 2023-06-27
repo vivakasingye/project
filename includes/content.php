@@ -31,9 +31,9 @@
 <div class="section-content">
 <?php
 require 'home-products.php'?>
-<div class="section-footer-button">
+<!--<div class="section-footer-button">
 <a class="default-button default-button-2 mt-30" href="products.php"><span>Browse More Products<i class="flaticon-right-arrow"></i></span></a>
-</div>
+</div>-->
 </div>
 </div>
 </div>
@@ -69,7 +69,7 @@ require 'home-products.php'?>
 <div class="service-card-text-area">
 <i class="flaticon-mechanics main-icon"></i>
 <h4><a href="./networking.php">Networking </a></h4>
-<p>. We can help your organization to regulate departments or even branches virtually, go wireless and or share resources. Our services include wireless networks, local area networks (office networks).</p>
+<p>. We can help your organization to regulate departments or even branches virtually, go wireless and or share resources. Our services include wireless networks, local area networks.</p>
 <a class="read-more-btn" href="./networking.php">Read More <i class="flaticon-right-arrow"></i></a>
 </div>
 </div>
@@ -88,9 +88,9 @@ require 'home-products.php'?>
 </div>
 </div>
 </div>
-<div class="section-footer-button">
+<!--<div class="section-footer-button">
 <a class="default-button default-button-2 mt-30" href="#"><span>Browse Services <i class="flaticon-right-arrow"></i></span></a>
-</div>
+</div>-->
 </div>
 </div>
 </div>

@@ -20,6 +20,9 @@
 <link rel="stylesheet" href="assets/css/odometer.min.css">
 <link rel="stylesheet" href="assets/css/style.css">
 <link rel="stylesheet" href="assets/css/responsive.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 <title>Telecorner Uganda limited - building an excellent reputation as to playing an active role in delivering IT services to our clients in Uganda, Africa.</title>
 <link rel="icon" type="image/png" href="assets/images/fav-icon.png">
 </head>
@@ -99,7 +102,7 @@
 <div class="menu-sidebar">
 <ul>
 
-<li><a class="default-button" href="contact.php"><span>Book A Service <i class="flaticon-right-arrow"></i></span></a></li>
+<li><a class="default-button" href="contact.php"><span>Get a Qoute<i class="flaticon-right-arrow"></i></span></a></li>
 </ul>
 </div>
 </div>

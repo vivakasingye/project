@@ -17,7 +17,7 @@
      </div>
     </div>
     </div>
-    <div class="col-lg-3 col-md-6 col-sm-6 col-12">
+    <div class="col-lg-4 col-md-6 col-sm-6 col-12">
     <div class="footer-links footer-lp footer-services">
     <h3>Services</h3>
     <ul>
@@ -28,19 +28,8 @@
     </ul>
     </div>
     </div>
-    <div class="col-lg-3 col-md-6 col-sm-6 col-12">
-    <div class="footer-links footer-lp">
-    <h3>Useful Links</h3>
-    <ul>
-    <li><a href="3">About Us</a></li>
-    <li><a href="#">Services</a></li>
-    <li><a href="#">Products</a></li>
-    <li><a href="#">Contact Us</a></li>
 
-    </ul>
-    </div>
-    </div>
-    <div class="col-lg-3 col-md-6 col-sm-6 col-12">
+    <div class="col-lg-5 col-md-6 col-sm-6 col-12">
     <div class="footer-links footer-contact">
     <h3>Get In Touch</h3>
     <div class="footer-contact-card">
