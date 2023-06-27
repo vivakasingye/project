@@ -4764,9 +4764,10 @@ Product Details Page Area CSS
 }*/
 
 .product-info-image-area img {
-  height: 400px;
-  width: 100%;
-  object-fit: contain;
+	height: 400px;
+	width: 100%;
+	object-fit: contain;
+	box-shadow: 10px 10px 20px #00000017;
 }
 
 .product-details-info-area {
